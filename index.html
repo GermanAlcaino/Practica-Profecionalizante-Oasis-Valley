@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oasis Valley</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.css">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:wght@400;700&amp;display-swap" rel="stylesheet">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Box icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <!--Navegation-->
+
+    <nav class="nav">
+        <div class="nav__center container">
+          <div class="nav__logo">
+            <img src="img/oasisvalleylogo.png"width="225" height="25">
+                      
+                  </div>
+                  <ul class="nav__list">
+                      
+                      <span>
+                        <i class="bx bx-user"></i>
+                      </span>
+                      <span>
+                      <i class="bx bx-heart"></i>
+                      </span>
+                      <div class="carrito__icon">
+                          <i class="bx bx-shopping-bag"></i>
+                          <span class="item__total">0</span>
+                      </div>
+                  </ul>
+        </div>
+      </nav>
+
+      <!--Carrusel-->
+      <div class="hero-slider" data-carousel>
+        <div class="carousel-cell" style="background-image:url(https://tintoreriabellosur.com/wp-content/uploads/2020/06/close-up-of-row-325876-1024x682.jpg) ;">
+          <div class="overlay"></div>
+          <div class="inner">
+            <h3 class="subtitle">Bienveniados a OASIS</h3>
+            <h2 class="title">Lo Que Buscás y Más</h2>
+            <a href="#" class="btn">Descubre</a>
+          </div>
+        </div>
+      
+        <div class="carousel-cell" style="background-image: url(https://i.pinimg.com/originals/7c/bb/7d/7cbb7d88a7d986357364201801f9acc3.jpg);">
+          <div class="overlay"></div>
+          <div class="inner">
+            <h3 class="subtitle">Bienveniados a OASIS</h3>
+            <h2 class="title">Lo Que Buscás y Más</h2>
+            <a href="#" class="btn">Descubre</a>
+          </div>
+        </div>
+      
+        <div class="carousel-cell" style="background-image: url(https://noticieros.televisa.com/wp-content/uploads/2018/05/cuidados-lavado-ropa-negra-848x477x80xx.jpg);">
+          <div class="overlay"></div>
+          <div class="inner">
+            <h3 class="subtitle">Bienveniados a OASIS</h3>
+            <h2 class="title">Lo Que Buscás y Más</h2>
+            <a href="#" class="btn">Descubre</a>
+          </div>
+        </div>
+      </div>
+
+      <!--Filter-->
+
+    <section class="filter">
+      <div class="grid">
+        <div class="div">
+          <label for="buscar"><span><i class="bx bx-search"></i></span></label>
+          <input type="text" id="buscar" placeholder="Buscar ...">
+        </div>
+        <div class="category">
+          <select id="category" onclick="categoryValue()">
+            <option value="">Marcas</option>
+            <option value="rolex">Adidas</option>
+            <option value="omega">Nike</option>
+            <option value="audemars">Reebok</option>
+            <option value="rolexDay">Fila</option>
+            <option value="hublot">Under Armour</option>
+            <option value="tag">Puma</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+   <!--Productos-->
+
+   <section class="productos">
+    <div class="productos__center">
+    <div class="producto">
+    <div class="image__container">
+    <img src="https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw453c75db/products/NI_CJ5332-010/NI_CJ5332-010-1.JPG?sw=400&sh=400" alt="">
+  </div>
+        <div class="producto__footer">
+          <h1>Remera Nike Dri-Fit Miler</h1>
+          <div class="rating">
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bx-star"></i>
+            </span>
+          </div>
+          <div class="price">$6.999</div>
+        </div>
+        <div class="bottom">
+          <div class="btn__group">
+            <button class="btn addToCart" data-id="1">Añadir carrito</button>
+            <a href="producto-detalles.html?id=1" class="btn view">Vista</a>
+          </div>
+        </div>
+      </div>
+      
+    <div class="producto">
+    <div class="image__container">
+    <img src="https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dwea4800ad/products/AD_HK2896/AD_HK2896-1.JPG?sw=400&sh=400" alt="">
+  </div>
+        <div class="producto__footer">
+          <h1>Remera adidas Mel</h1>
+          <div class="rating">
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bx-star"></i>
+            </span>
+          </div>
+          <div class="price">$9.499</div>
+        </div>
+        <div class="bottom">
+          <div class="btn__group">
+            <button class="btn addToCart" data-id="2">Añadir carrito</button>
+            <a href="producto-detalles.html?id=2" class="btn view">Vista</a>
+          </div>
+        </div>
+      </div>
+      
+    <div class="producto">
+    <div class="image__container">
+    <img src="https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw06c95e12/products/NI_DD6013-405/NI_DD6013-405-1.JPG?sw=400&sh=400" alt="">
+  </div>
+        <div class="producto__footer">
+          <h1>Remera Nike Dri-Fit Miler</h1>
+          <div class="rating">
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bx-star"></i>
+            </span>
+          </div>
+          <div class="price">$11.499</div>
+        </div>
+        <div class="bottom">
+          <div class="btn__group">
+            <button class="btn addToCart" data-id="3">Añadir carrito</button>
+            <a href="producto-detalles.html?id=3" class="btn view">Vista</a>
+          </div>
+        </div>
+      </div>
+      
+    <div class="producto">
+    <div class="image__container">
+    <img src="https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dwcf2aa1ee/products/FI_F11L518187-6577/FI_F11L518187-6577-1.JPG?sw=400&sh=400" alt="">
+  </div>
+        <div class="producto__footer">
+          <h1>Remera Fila Logotype</h1>
+          <div class="rating">
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bx-star"></i>
+            </span>
+          </div>
+          <div class="price">$5.049</div>
+        </div>
+        <div class="bottom">
+          <div class="btn__group">
+            <button class="btn addToCart" data-id="4">Añadir carrito</button>
+            <a href="producto-detalles.html?id=4" class="btn view">Vista</a>
+          </div>
+        </div>
+      </div>
+      
+    <div class="producto">
+    <div class="image__container">
+    <img src="https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw6f665576/products/AD_HE6790/AD_HE6790-1.JPG?sw=400&sh=400" alt="">
+  </div>
+        <div class="producto__footer">
+          <h1>Remera adidas City Elevated</h1>
+          <div class="rating">
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bx-star"></i>
+            </span>
+          </div>
+          <div class="price">$9.499</div>
+        </div>
+        <div class="bottom">
+          <div class="btn__group">
+            <button class="btn addToCart" data-id="5">Añadir carrito</button>
+            <a href="producto-detalles.html?id=5" class="btn view">Vista</a>
+          </div>
+        </div>
+      </div>
+      
+    <div class="producto">
+    <div class="image__container">
+    <img src="https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw1240766d/products/NI_DD6288-045/NI_DD6288-045-1.JPG?sw=400&sh=400" alt="">
+  </div>
+        <div class="producto__footer">
+          <h1>Remera Nike Dri-Fit Wild Top</h1>
+          <div class="rating">
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bx-star"></i>
+            </span>
+          </div>
+          <div class="price">$8.499</div>
+        </div>
+        <div class="bottom">
+          <div class="btn__group">
+            <button class="btn addToCart" data-id="6">Añadir carrito</button>
+            <a href="producto-detalles.html?id=6" class="btn view">Vista</a>
+          </div>
+        </div>
+      </div>
+      
+    <div class="producto">
+    <div class="image__container">
+    <img src="https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw00a9915f/products/AD_HL6934/AD_HL6934-1.JPG?sw=400&sh=400" alt="">
+  </div>
+        <div class="producto__footer">
+          <h1>Remera adidas Camo</h1>
+          <div class="rating">
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bx-star"></i>
+            </span>
+          </div>
+          <div class="price">$7.499</div>
+        </div>
+        <div class="bottom">
+          <div class="btn__group">
+            <button class="btn addToCart" data-id="7">Añadir carrito</button>
+            <a href="producto-detalles.html?id=7" class="btn view">Vista</a>
+          </div>
+        </div>
+      </div>
+      
+    <div class="producto">
+    <div class="image__container">
+    <img src="https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw8d68f607/products/PU_847996-20/PU_847996-20-1.JPG?sw=400&sh=400" alt="">
+  </div>
+        <div class="producto__footer">
+          <h1>Remera Puma Essentials Logor</h1>
+          <div class="rating">
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bx-star"></i>
+            </span>
+          </div>
+          <div class="price">$6.999</div>
+        </div>
+        <div class="bottom">
+          <div class="btn__group">
+            <button class="btn addToCart" data-id="8">Añadir carrito</button>
+            <a href="producto-detalles.html?id=8" class="btn view">Vista</a>
+          </div>
+        </div>
+      </div>
+      
+    <div class="producto">
+    <div class="image__container">
+    <img src="https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw07c5d26e/products/PU_521809-25/PU_521809-25-1.JPG?sw=400&sh=400" alt="">
+  </div>
+        <div class="producto__footer">
+          <h1>Remera Puma Favorite Heather</h1>
+          <div class="rating">
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bx-star"></i>
+            </span>
+          </div>
+          <div class="price">$6.999</div>
+        </div>
+        <div class="bottom">
+          <div class="btn__group">
+            <button class="btn addToCart" data-id="9">Añadir carrito</button>
+            <a href="producto-detalles.html?id=9" class="btn view">Vista</a>
+          </div>
+        </div>
+      </div>
+      
+    <div class="producto">
+    <div class="image__container">
+    <img src="https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dwa2eb8c01/products/UA_1361131-975/UA_1361131-975-1.JPG?sw=400&sh=400" alt="">
+  </div>
+        <div class="producto__footer">
+          <h1>Remera Under Armour Seamless</h1>
+          <div class="rating">
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bx-star"></i>
+            </span>
+          </div>
+          <div class="price">$13.699</div>
+        </div>
+        <div class="bottom">
+          <div class="btn__group">
+            <button class="btn addToCart" data-id="10">Añadir carrito</button>
+            <a href="producto-detalles.html?id=10" class="btn view">Vista</a>
+          </div>
+        </div>
+      </div>
+      
+    <div class="producto">
+    <div class="image__container">
+    <img src="https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw7f452370/products/UA_1361356-458/UA_1361356-458-1.JPG?sw=400&sh=400" alt="">
+  </div>
+        <div class="producto__footer">
+          <h1>Remera Under Armour Seamless</h1>
+          <div class="rating">
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bx-star"></i>
+            </span>
+          </div>
+          <div class="price">$15.799</div>
+        </div>
+        <div class="bottom">
+          <div class="btn__group">
+            <button class="btn addToCart" data-id="11">Añadir carrito</button>
+            <a href="producto-detalles.html?id=11" class="btn view">Vista</a>
+          </div>
+        </div>
+      </div>
+      
+    <div class="producto">
+    <div class="image__container">
+    <img src="https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw6cc72ca9/products/UA_1369747-481/UA_1369747-481-1.JPG?sw=400&sh=400" alt="">
+  </div>
+        <div class="producto__footer">
+          <h1>Remera Under Armour Streaker Jacquard</h1>
+          <div class="rating">
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bx-star"></i>
+            </span>
+          </div>
+          <div class="price">$13.699</div>
+        </div>
+        <div class="bottom">
+          <div class="btn__group">
+            <button class="btn addToCart" data-id="12">Añadir carrito</button>
+            <a href="producto-detalles.html?id=12" class="btn view">Vista</a>
+          </div>
+        </div>
+      </div>
+      
+    <div class="producto">
+    <div class="image__container">
+    <img src="https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw3bf3b7c8/products/AD_FX3593/AD_FX3593-1.JPG?sw=400&sh=400" alt="">
+  </div>
+        <div class="producto__footer">
+          <h1>Zapatillas adidas Coreracer</h1>
+          <div class="rating">
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bx-star"></i>
+            </span>
+          </div>
+          <div class="price">$17.599</div>
+        </div>
+        <div class="bottom">
+          <div class="btn__group">
+            <button class="btn addToCart" data-id="13">Añadir carrito</button>
+            <a href="producto-detalles.html?id=13" class="btn view">Vista</a>
+          </div>
+        </div>
+      </div>
+      
+    <div class="producto">
+    <div class="image__container">
+    <img src="https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw2d81be62/products/AD_GZ5920/AD_GZ5920-1.JPG?sw=400&sh=400" alt="">
+  </div>
+        <div class="producto__footer">
+          <h1>Ojotas adidas Adilette Shower</h1>
+          <div class="rating">
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bx-star"></i>
+            </span>
+          </div>
+          <div class="price">$9.899</div>
+        </div>
+        <div class="bottom">
+          <div class="btn__group">
+            <button class="btn addToCart" data-id="14">Añadir carrito</button>
+            <a href="producto-detalles.html?id=14" class="btn view">Vista</a>
+          </div>
+        </div>
+      </div>
+      
+    <div class="producto">
+    <div class="image__container">
+    <img src="https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dwdcefc79e/products/AD_FX3594/AD_FX3594-1.JPG?sw=400&sh=400" alt="">
+  </div>
+        <div class="producto__footer">
+          <h1>Zapatillas adidas Coreracer</h1>
+          <div class="rating">
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bx-star"></i>
+            </span>
+          </div>
+          <div class="price">$17.599</div>
+        </div>
+        <div class="bottom">
+          <div class="btn__group">
+            <button class="btn addToCart" data-id="15">Añadir carrito</button>
+            <a href="producto-detalles.html?id=15" class="btn view">Vista</a>
+          </div>
+        </div>
+      </div>
+      
+    <div class="producto">
+    <div class="image__container">
+    <img src="https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw6b305eed/products/RE_FK2718/RE_FK2718-1.JPG?sw=400&sh=400" alt="">
+  </div>
+        <div class="producto__footer">
+          <h1>Buzo Reebok Classic Linear Crew</h1>
+          <div class="rating">
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bx-star"></i>
+            </span>
+          </div>
+          <div class="price">$8.399</div>
+        </div>
+        <div class="bottom">
+          <div class="btn__group">
+            <button class="btn addToCart" data-id="16">Añadir carrito</button>
+            <a href="producto-detalles.html?id=16" class="btn view">Vista</a>
+          </div>
+        </div>
+      </div>
+      
+    <div class="producto">
+    <div class="image__container">
+    <img src="https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw3f61dd7e/products/RE_H00858/RE_H00858-1.JPG?sw=400&sh=400" alt="">
+  </div>
+        <div class="producto__footer">
+          <h1>Zapatillas Reebok Energylux 3.0</h1>
+          <div class="rating">
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bx-star"></i>
+            </span>
+          </div>
+          <div class="price">$16.319</div>
+        </div>
+        <div class="bottom">
+          <div class="btn__group">
+            <button class="btn addToCart" data-id="17">Añadir carrito</button>
+            <a href="producto-detalles.html?id=17" class="btn view">Vista</a>
+          </div>
+        </div>
+      </div>
+      
+    <div class="producto">
+    <div class="image__container">
+    <img src="https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw95bf2234/products/RE_GK1574/RE_GK1574-1.JPG?sw=400&sh=400" alt="">
+  </div>
+        <div class="producto__footer">
+          <h1>Top Reebok Wonder Woman</h1>
+          <div class="rating">
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bx-star"></i>
+            </span>
+          </div>
+          <div class="price">$6.999</div>
+        </div>
+        <div class="bottom">
+          <div class="btn__group">
+            <button class="btn addToCart" data-id="18">Añadir carrito</button>
+            <a href="producto-detalles.html?id=18" class="btn view">Vista</a>
+          </div>
+        </div>
+      </div>
+      
+    <div class="producto">
+    <div class="image__container">
+    <img src="https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dwd160bbe6/products/RE_FP9197/RE_FP9197-1.JPG?sw=400&sh=400" alt="">
+  </div>
+        <div class="producto__footer">
+          <h1>Calza Reebok Lux 2.0</h1>
+          <div class="rating">
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bx-star"></i>
+            </span>
+          </div>
+          <div class="price">$7.699</div>
+        </div>
+        <div class="bottom">
+          <div class="btn__group">
+            <button class="btn addToCart" data-id="19">Añadir carrito</button>
+            <a href="producto-detalles.html?id=19" class="btn view">Vista</a>
+          </div>
+        </div>
+      </div>
+      
+    <div class="producto">
+    <div class="image__container">
+    <img src="https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dwc2256138/products/UA_1328962-664/UA_1328962-664-1.JPG?sw=400&sh=400" alt="">
+  </div>
+        <div class="producto__footer">
+          <h1>Musculosa Under Armour Hg Racer Tank</h1>
+          <div class="rating">
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bx-star"></i>
+            </span>
+          </div>
+          <div class="price">$10.499</div>
+        </div>
+        <div class="bottom">
+          <div class="btn__group">
+            <button class="btn addToCart" data-id="20">Añadir carrito</button>
+            <a href="producto-detalles.html?id=20" class="btn view">Vista</a>
+          </div>
+        </div>
+      </div>
+      
+    <div class="producto">
+    <div class="image__container">
+    <img src="https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw89585172/products/NI_SX7676-964/NI_SX7676-964-1.JPG?sw=400&sh=400" alt="">
+  </div>
+        <div class="producto__footer">
+          <h1>Pack de Medias Nike Everyday Lightweight X3</h1>
+          <div class="rating">
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bx-star"></i>
+            </span>
+          </div>
+          <div class="price">$3.599</div>
+        </div>
+        <div class="bottom">
+          <div class="btn__group">
+            <button class="btn addToCart" data-id="21">Añadir carrito</button>
+            <a href="producto-detalles.html?id=21" class="btn view">Vista</a>
+          </div>
+        </div>
+      </div>
+      
+    <div class="producto">
+    <div class="image__container">
+    <img src="https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw88a9734a/products/FI_F12AT00342-6587/FI_F12AT00342-6587-1.JPG?sw=400&sh=400" alt="">
+  </div>
+        <div class="producto__footer">
+          <h1>Calza Fila Elastic II</h1>
+          <div class="rating">
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bx-star"></i>
+            </span>
+          </div>
+          <div class="price">$6.499</div>
+        </div>
+        <div class="bottom">
+          <div class="btn__group">
+            <button class="btn addToCart" data-id="22">Añadir carrito</button>
+            <a href="producto-detalles.html?id=22" class="btn view">Vista</a>
+          </div>
+        </div>
+      </div>
+      
+    <div class="producto">
+    <div class="image__container">
+    <img src="https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw2bf22aec/products/FI_F11AT534012-6577/FI_F11AT534012-6577-1.JPG?sw=400&sh=400" alt="">
+  </div>
+        <div class="producto__footer">
+          <h1>Buzo Fila Inbox</h1>
+          <div class="rating">
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bx-star"></i>
+            </span>
+          </div>
+          <div class="price">$9.989</div>
+        </div>
+        <div class="bottom">
+          <div class="btn__group">
+            <button class="btn addToCart" data-id="23">Añadir carrito</button>
+            <a href="producto-detalles.html?id=23" class="btn view">Vista</a>
+          </div>
+        </div>
+      </div>
+      <div class="producto">
+        <div class="image__container">
+        <img src="https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw2397e534/products/NI_NESSA566-631/NI_NESSA566-631-1.JPG?sw=400&sh=400" alt="">
+      </div>
+            <div class="producto__footer">
+              <h1>Short Nike Lap 5</h1>
+              <div class="rating">
+                <span>
+                  <i class="bx bxs-star"></i>
+                </span>
+                <span>
+                  <i class="bx bxs-star"></i>
+                </span>
+                <span>
+                  <i class="bx bxs-star"></i>
+                </span>
+                <span>
+                  <i class="bx bxs-star"></i>
+                </span>
+                <span>
+                  <i class="bx bx-star"></i>
+                </span>
+              </div>
+              <div class="price">$14.899</div>
+            </div>
+            <div class="bottom">
+              <div class="btn__group">
+                <button class="btn addToCart" data-id="23">Añadir carrito</button>
+                <a href="producto-detalles.html?id=23" class="btn view">Vista</a>
+              </div>
+            </div>
+          </div>
+    <div class="producto">
+    <div class="image__container">
+    <img src="https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw325ad5f5/products/PU_658209-03/PU_658209-03-1.JPG?sw=400&sh=400" alt="">
+  </div>
+        <div class="producto__footer">
+          <h1>Short Puma Teamrise</h1>
+          <div class="rating">
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bx-star"></i>
+            </span>
+          </div>
+          <div class="price">$6.999</div>
+        </div>
+        <div class="bottom">
+          <div class="btn__group">
+            <button class="btn addToCart" data-id="24">Añadir carrito</button>
+            <a href="producto-detalles.html?id=24" class="btn view">Vista</a>
+          </div>
+        </div>
+      </div>
+
+      </div>
+  </section>
+
+<!--Carrito-->
+    
+<section class="carrito__overlay">
+  <div class="carrito">
+    <span class="close__carrito">
+      <i class="bx bx-x"></i>
+    </span>
+    <h1>Su Carrito</h1>
+
+    <div class="carrito__center">
+
+       <div class="carrito__item">
+        <img src="https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw453c75db/products/NI_CJ5332-010/NI_CJ5332-010-1.JPG?sw=400&sh=400" alt="reloj">
+        <div>
+          <h3>Remera Nike Dri-Fit Miler </h3>
+          <p class="price">$6.999</p>
+        </div>
+        <div>
+          <span>
+            <i class="bx bxs-up-arrow"></i>
+          </span>
+          <p>1</p>
+          <span>
+            <i class="bx bxs-down-arrow"></i>
+          </span>
+        </div>
+        <div>
+          <span class="remove__item">
+            <i class="bx bx-trash"></i>
+          </span>
+        </div>
+        
+      </div> 
+    </div>
+
+    <div class="carrito__footer">
+        <h3>Total: $ <span class="carrito__total">0</span></h3>
+        <button class="clear__carrito btn">remover carrito</button>
+    </div>
+  </div>
+</section>
+
+<!--::::Pie de Pagina::::::-->
+<section class="pie-pagina">
+  <div class="grupo-1">
+      <div class="box">
+          <figure>
+              <a href="#">
+                  <img src="img/oasisvalleylogo.png" >
+              </a>
+          </figure>
+      </div>
+      <div class="box">
+          <h2>Contáctanos</h2>
+          <p>+54 2612345678</p>
+          <p>OasisValley@gmail.com</p>
+      </div>
+      <div class="box">
+          <h2>SIGUENOS</h2>
+          <div class="red-social">
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-instagram"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-youtube"></a>
+          </div>
+      </div>
+  </div>
+  <div class="grupo-2">
+      <small>&copy; 2022 <b>Áridos</b> - Todos los Derechos Reservados.</small>
+  </div>
+</section>  
+
+
+    <script src="https://unpkg.com/boxicons@2.1.3/dist/boxicons.js"></script>
+    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.pkgd.min.js"></script>
+    <script type="text/javascript" src="./js/scripts.js"></script>
+  </body>
+</html>

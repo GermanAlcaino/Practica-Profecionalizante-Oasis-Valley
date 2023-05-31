@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSON DEV - Productos detalles</title>
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:wght@400;700&amp;display-swap" rel="stylesheet">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Box icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!--Navegation-->
+    <nav class="nav">
+      <a href="./index.html">
+      <div class="nav__center container">
+        <div class="nav__logo">
+          <img src="img/oasisvalleylogo.png"width="225" height="25">
+      </a>   
+                </div>
+                <ul class="nav__list">
+                    
+                    <span>
+                      <i class="bx bx-user"></i>
+                    </span>
+                    <span>
+                    <i class="bx bx-heart"></i>
+                    </span>
+                    <div class="carrito__icon">
+                        <i class="bx bx-shopping-bag"></i>
+                        <span class="item__total">0</span>
+                    </div>
+                </ul>
+      </div>
+    </nav>
+
+		<main class="container detalles" id="detalles">
+			 <article class="detalle-grid">
+				<img src="https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw453c75db/products/NI_CJ5332-010/NI_CJ5332-010-1.JPG?sw=400&sh=400" alt="" class="img-fluid">
+				<div class="detalles-content">
+					<h3>Remera Nike Dri-Fit Miler</h3>
+					<div class="rating">
+						<span>
+							<i class="bx bxs-star"></i>
+						</span>
+						<span>
+							<i class="bx bxs-star"></i>
+						</span>
+						<span>
+							<i class="bx bxs-star"></i>
+						</span>
+						<span>
+							<i class="bx bxs-star"></i>
+						</span>
+						<span>
+							<i class="bx bx-star"></i>
+						</span>
+					</div>
+						<p class="price"><b>Precio: </b> $6.999</p>
+						<p class="description">
+							<b>Descripcion: </b> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quae ad ex sint expedita perspiciatis odit eligendi! Et quia ex aperiam dolorum sunt omnis maiores. Repudiandae delectus iste exercitationem vel?</span>
+						</p>
+						<p class="description">
+							<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptates consequuntur in assumenda odit hic, aut cupiditate dolorem aspernatur! Quibusdam iusto magnam vero maxime quisquam voluptatibus minima aliquam molestias, iure ratione commodi, reiciendis quasi.</span>
+						</p>
+
+						<div class="bottom">
+							<div class="btn__group">
+								<a href="" class="btn addToCart">Añadir carrito</a>
+							</div>
+						</div>
+				</div>
+			</article> 
+		</main>
+
+		 <!--Carrito-->
+    
+<section class="carrito__overlay">
+  <div class="carrito">
+    <span class="close__carrito">
+      <i class="bx bx-x"></i>
+    </span>
+    <h1>Su Carrito</h1>
+
+    <div class="carrito__center">
+
+      <div class="carrito__item">
+        <img src="https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw453c75db/products/NI_CJ5332-010/NI_CJ5332-010-1.JPG?sw=400&sh=400" alt="reloj">
+        <div>
+          <h3>Remera Nike Dri-Fit Miler </h3>
+          <p class="price">$6.999</p>
+        </div>
+        <div>
+          <span>
+            <i class="bx bxs-up-arrow"></i>
+          </span>
+          <p>1</p>
+          <span>
+            <i class="bx bxs-down-arrow"></i>
+          </span>
+        </div>
+        <div>
+          <span class="remove__item">
+            <i class="bx bx-trash"></i>
+          </span>
+        </div>
+        
+      </div> 
+    </div>
+
+    <div class="carrito__footer">
+        <h3>Total: $ <span class="carrito__total">0</span></h3>
+        <button class="clear__carrito btn">remover carrito</button>
+    </div>
+  </div>
+</section>
+
+    <!--::::Pie de Pagina::::::-->
+<section class="pie-pagina">
+  <div class="grupo-1">
+      <div class="box">
+          <figure>
+              <a href="#">
+                  <img src="img/oasisvalleylogo.png" >
+              </a>
+          </figure>
+      </div>
+      <div class="box">
+          <h2>Contáctanos</h2>
+          <p>+54 2612345678</p>
+          <p>OasisValley@gmail.com</p>
+      </div>
+      <div class="box">
+          <h2>SIGUENOS</h2>
+          <div class="red-social">
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-instagram"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-youtube"></a>
+          </div>
+      </div>
+  </div>
+  <div class="grupo-2">
+      <small>&copy; 2022 <b>Áridos</b> - Todos los Derechos Reservados.</small>
+  </div>
+</section> 
+		<script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+    
+  </body>
+</html>

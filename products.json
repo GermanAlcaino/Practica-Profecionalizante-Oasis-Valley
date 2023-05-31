@@ -1,0 +1,183 @@
+{
+    "status": "success",
+    "items": [{
+            "id": 1,
+            "title": "Remera Nike Dri-Fit Miler",
+            "price": 6999,
+            "image": "https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw453c75db/products/NI_CJ5332-010/NI_CJ5332-010-1.JPG?sw=400&sh=400",
+            "category": "nike"
+        },
+        {
+            "id": 2,
+            "title": "Remera adidas Mel",
+            "price": 9499,
+            "image": "https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dwea4800ad/products/AD_HK2896/AD_HK2896-1.JPG?sw=400&sh=400",
+            "category": "adidas"
+        },
+        {
+            "id": 3,
+            "title": "Remera Nike Dri-Fit Miler",
+            "price": 11499,
+            "image": "https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw06c95e12/products/NI_DD6013-405/NI_DD6013-405-1.JPG?sw=400&sh=400",
+            "category": "nike"
+        },
+        {
+            "id": 4,
+            "title": "Remera Fila Logotype",
+            "price": 5049,
+            "image": "https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dwcf2aa1ee/products/FI_F11L518187-6577/FI_F11L518187-6577-1.JPG?sw=400&sh=400",
+            "category": "fila"
+        },
+        {
+            "id": 5,
+            "title": "Remera adidas City Elevated",
+            "price": 9499,
+            "image": "https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw6f665576/products/AD_HE6790/AD_HE6790-1.JPG?sw=400&sh=400",
+            "category": "adidas"
+
+        },
+        {
+            "id": 6,
+            "title": "Remera Nike Dri-Fit Wild Top",
+            "price": 8.499,
+            "image": "https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw1240766d/products/NI_DD6288-045/NI_DD6288-045-1.JPG?sw=400&sh=400",
+            "category": "nike"
+
+        },
+        {
+            "id": 7,
+            "title": "Remera adidas Camo",
+            "price": 7499,
+            "image": "https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw00a9915f/products/AD_HL6934/AD_HL6934-1.JPG?sw=400&sh=400",
+            "category": "adidas"
+        },
+        {
+            "id": 8,
+            "title": "Remera Puma Essentials Logorr",
+            "price": 6999,
+            "image": "https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw8d68f607/products/PU_847996-20/PU_847996-20-1.JPG?sw=400&sh=400",
+            "category": "puma"
+        },
+        {
+            "id": 9,
+            "title": "Remera Puma Favorite Heather",
+            "price": 6999,
+            "image": "https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw07c5d26e/products/PU_521809-25/PU_521809-25-1.JPG?sw=400&sh=400",
+            "category": "puma"
+        },
+        {
+            "id": 10,
+            "title": "Remera Under Armour Seamless",
+            "price": 13699,
+            "image": "https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dwa2eb8c01/products/UA_1361131-975/UA_1361131-975-1.JPG?sw=400&sh=400",
+            "category": "under armour"
+        },
+        {
+            "id": 11,
+            "title": "Remera Under Armour Seamless",
+            "price": 15799,
+            "image": "https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw7f452370/products/UA_1361356-458/UA_1361356-458-1.JPG?sw=400&sh=400",
+            "category": "under armour"
+        },
+        {
+            "id": 12,
+            "title": "Remera Under Armour Streaker Jacquard",
+            "price": 13699,
+            "image": "https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw6cc72ca9/products/UA_1369747-481/UA_1369747-481-1.JPG?sw=400&sh=400",
+            "category": "under armour"
+        },
+        {
+            "id": 13,
+            "title": "Zapatillas adidas Coreracer",
+            "price": 17599,
+            "image": "https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw3bf3b7c8/products/AD_FX3593/AD_FX3593-1.JPG?sw=400&sh=400",
+            "category": "adidas"
+        },
+        {
+            "id": 14,
+            "title": "Ojotas adidas Adilette Shower",
+            "price": 9899,
+            "image": "https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw2d81be62/products/AD_GZ5920/AD_GZ5920-1.JPG?sw=400&sh=400",
+            "category": "adidas"
+        },
+        {
+            "id": 15,
+            "title": "Zapatillas adidas Coreracer",
+            "price": 17599,
+            "image": "https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dwdcefc79e/products/AD_FX3594/AD_FX3594-1.JPG?sw=400&sh=400",
+            "category": "adidas"
+        },
+        {
+            "id": 16,
+            "title": "Buzo Reebok Classic Linear Crew",
+            "price": 8399,
+            "image": "https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw6b305eed/products/RE_FK2718/RE_FK2718-1.JPG?sw=400&sh=400",
+            "category": "reebok"
+        },
+        {
+            "id": 17,
+            "title": "Zapatillas Reebok Energylux 3.0",
+            "price": 16319,
+            "image": "https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw3f61dd7e/products/RE_H00858/RE_H00858-1.JPG?sw=400&sh=400",
+            "category": "reebok"
+
+        },
+        {
+            "id": 18,
+            "title": "Top Reebok Wonder Woman",
+            "price": 6999,
+            "image": "https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw95bf2234/products/RE_GK1574/RE_GK1574-1.JPG?sw=400&sh=400",
+            "category": "reebok"
+
+        },
+        {
+            "id": 19,
+            "title": "Calza Reebok Lux 2.0",
+            "price": 7699,
+            "image": "https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dwd160bbe6/products/RE_FP9197/RE_FP9197-1.JPG?sw=400&sh=400",
+            "category": "reebok"
+        },
+        {
+            "id": 20,
+            "title": "Musculosa Under Armour Hg Racer Tank",
+            "price": 10499,
+            "image": "https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dwc2256138/products/UA_1328962-664/UA_1328962-664-1.JPG?sw=400&sh=400",
+            "category": "under armour"
+        },
+        {
+            "id": 21,
+            "title": "Pack de Medias Nike Everyday Lightweight X3",
+            "price": 3599,
+            "image": "https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw89585172/products/NI_SX7676-964/NI_SX7676-964-1.JPG?sw=400&sh=400",
+            "category": "nike"
+        },
+        {
+            "id": 22,
+            "title": "Calza Fila Elastic II",
+            "price": 6499,
+            "image": "https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw88a9734a/products/FI_F12AT00342-6587/FI_F12AT00342-6587-1.JPG?sw=400&sh=400",
+            "category": "fila"
+        },
+        {
+            "id": 23,
+            "title": "Buzo Fila Inbox",
+            "price": 9989,
+            "image": "https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw2bf22aec/products/FI_F11AT534012-6577/FI_F11AT534012-6577-1.JPG?sw=400&sh=400",
+            "category": "fila"
+        },
+        {
+            "id": 24,
+            "title": "Short Nike Lap 5",
+            "price": 14899,
+            "image": "https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw2397e534/products/NI_NESSA566-631/NI_NESSA566-631-1.JPG?sw=400&sh=400",
+            "category": "nike"
+        },
+        {
+            "id": 25,
+            "title": "Short Puma Teamrise",
+            "price": 6999,
+            "image": "https://www.dexter.com.ar/dw/image/v2/BDTF_PRD/on/demandware.static/-/Sites-dabra-catalog/default/dw325ad5f5/products/PU_658209-03/PU_658209-03-1.JPG?sw=400&sh=400",
+            "category": "puma"
+        }
+    ]
+}
