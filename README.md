@@ -1,6 +1,6 @@
-# Práctica Profesionalizante I - Instituto de Educación Superior Manuel Belgrano 9008 - 2022
+# Práctica Profesionalizante II - Instituto de Educación Superior Manuel Belgrano 9008 - 2023
 
-## Grupo 1 - Oasis Valley
+## Grupo 4 - Oasis Valley
 
 ### **Definir la temática del Market Place**
 
@@ -18,10 +18,9 @@ Nuestra audiencia objetivo abarcará mujeres y hombres comprendidos entre los 15
 
 ## **Integrantes del Equipo**
 
-- **Alcaino Germán**
+- **Evelina Yubatti**
 - **Arias Emiliano**
-- **Gargiulo Florencia**
-- **Ybarra Jon**
+- **Alcaino Germàn**
 
 ### **Buscar inspiración en referentes del mercado**
 
